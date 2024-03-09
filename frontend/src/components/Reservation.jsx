@@ -17,7 +17,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://127.0.0.1:4000/api/v1/reservation/send",
+        "https://gorgeous-boa-sundress.cyclic.app//api/v1/reservation/send",
         { firstName, lastName, email, phone, date, time },
         {
           headers: {
